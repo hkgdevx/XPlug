@@ -1,0 +1,43 @@
+{
+  "name": "xplug",
+  "version": "0.1.0",
+  "description": "XPlug – A lifecycle-driven plugin engine for Express &amp; Node.js, enabling modular, extensible, and plugin-based architectures.",
+  "main": "dist/public/index.js",
+  "types": "dist/public/index.d.ts",
+  "bin": {
+    "xplug": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "build": "tsc && tsc-alias",
+    "start": "node dist/examples/basic-express-app/index.js",
+    "lint": "eslint src/ --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "changeset": "changeset"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.30.0",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.6.0",
+    "@types/supertest": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.58.1",
+    "@typescript-eslint/parser": "^8.58.1",
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "jest": "^30.3.0",
+    "prettier": "^3.8.2",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.9",
+    "tsc-alias": "^1.8.16",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
