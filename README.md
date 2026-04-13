@@ -2,8 +2,9 @@
 
 > The deterministic, zero-dependency lifecycle-driven framework for mapping sprawling Express backend ecosystems safely natively via Plugins.
 
-[![npm version](https://img.shields.io/npm/v/xplug.svg?style=flat)](https://www.npmjs.com/package/xplug)
-[![Build Status](https://img.shields.io/travis/your-repo/xplug.svg?style=flat)](https://travis-ci.org/your-repo/xplug)
+[![npm version](https://img.shields.io/npm/v/%40hkgdevx%2Fxplug)](https://www.npmjs.com/package/@hkgdevx/xplug)
+[![CI](https://img.shields.io/github/actions/workflow/status/hkgdevx/XPlug/ci.yaml?branch=main&label=ci)](https://github.com/hkgdevx/XPlug/actions/workflows/ci.yaml)
+[![License](https://img.shields.io/github/license/hkgdevx/XPlug)](LICENSE)
 
 XPlug solves the problem of "Framework Rot" where massive Express applications slowly drift into tightly coupled balls of mud. Rather than explicitly writing global routing configurations, Database initialization logic, and Auth layers into one sequential `index.ts` file — XPlug forces your developers to bundle logic into self-containing **Plugins**. 
 

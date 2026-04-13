@@ -1,0 +1,69 @@
+name: Feature request
+description: Suggest a new feature or improvement for XPlug
+title: '[Feature]: '
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve?
+      placeholder: Describe the workflow pain point.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like XPlug to do?
+      placeholder: Describe the feature idea.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      placeholder: What are you doing today instead?
+
+  - type: textarea
+    id: roadmap
+    attributes:
+      label: Roadmap alignment
+      description: If this idea maps to an existing roadmap milestone, mention it here.
+      placeholder: e.g. Runtime Source Quality and Selection
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example usage
+      description: Share example commands, logs, or outputs.
+      placeholder: |
+        xplug explain app.log --context .env,docker-compose.yml
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - CLI
+        - Detector
+        - Context analysis
+        - Formatting
+        - LLM enhancement
+        - CI/CD
+        - Docs
+        - Packaging
+        - Other
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submit checks
+      options:
+        - label: I searched existing issues
+          required: true
+        - label: I understand large features may be redirected to roadmap discussion first
+          required: true
