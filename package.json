@@ -1,6 +1,6 @@
 {
   "name": "@hkgdevx/xplug",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "XPlug – A lifecycle-driven plugin engine for Express &amp; Node.js, enabling modular, extensible, and plugin-based architectures.",
   "main": "dist/public/index.js",
   "types": "dist/public/index.d.ts",
